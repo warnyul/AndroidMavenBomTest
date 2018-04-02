@@ -2,7 +2,7 @@
 
 In this repository, I would like to try the Gradle's [improved pom support](https://docs.gradle.org/4.6/release-notes.html#bom-import).
 
-I want to resolve version `gson` from Spring Boot BOM
+I want to resolve version of `gson` from Spring Boot BOM
 
 ```groovy
 dependencies {
@@ -13,7 +13,7 @@ dependencies {
 }
 ```
 
-Run this command to check `gson` version:
+Run this command to check `gson`'s version:
 ```
 ./gradlew :android-maven-bom-test:dependencies --configuration releaseCompileClasspath
 ```
