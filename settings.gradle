@@ -1,0 +1,5 @@
+include ':library'
+
+project(':library').name = 'android-maven-bom-test'
+
+enableFeaturePreview('IMPROVED_POM_SUPPORT')
