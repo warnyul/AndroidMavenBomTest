@@ -17,4 +17,4 @@ cache:
     - $HOME/.gradle/wrapper/
     - $HOME/.android/build-cache
 
-install: ./gradlew :android-maven-bom-test:dependencies --configuration releaseCompileClasspath --console plain
+script: ./gradlew :android-maven-bom-test:dependencies --configuration releaseCompileClasspath --console plain
